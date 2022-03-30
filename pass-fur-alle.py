@@ -16,16 +16,16 @@ web = webdriver.Chrome(options=options)
 
 # Constants
 startBookingDate = datetime.today().strftime('%Y-%m-%d') # Start searching today, if you want to start some other day, just change this to a date with the format YYYY-MM-DD
-endBookingDate = "2022-12-24" # The last date you want to search for
+endBookingDate = "2022-06-16" # The last date you want to search for
 firstDate = False # If you want to look for the first date using "First available time", change to True
 people = [
     { 
-        "firstName": "Test", 
-        "lastName": "Testsson"
+        "firstName": "mohamed", 
+        "lastName": "omar"
     }
 ]
-emailAddress = 'test@test.se' # Your email
-phoneNumber = '076127567' # Your phone number
+emailAddress = 'afar_82@yahoo.se' # Your email
+phoneNumber = '0733442713' # Your phone number
 manualVerify = True # Change this to False if you want the script to automatically book the time in the last step
 
 # Terminal output
